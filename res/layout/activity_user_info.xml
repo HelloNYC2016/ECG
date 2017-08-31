@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_user"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingLeft="20dp" android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:background="@drawable/settings_bg"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="我的账号"
+            android:id="@+id/tv_id"
+            android:onClick="onChangeUserInfo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/tv_id_value"
+            android:onClick="onChangeUserInfo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="姓名"
+            android:id="@+id/tv_name"
+            android:onClick="onChangeUserInfo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/tv_name_value"
+            android:onClick="onChangeUserInfo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="年龄"
+            android:id="@+id/tv_age"
+            android:onClick="onChangeUserInfo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/tv_age_value"
+            android:onClick="onChangeUserInfo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="性别"
+            android:id="@+id/tv_gender"
+            android:onClick="onChangeUserInfo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/tv_gender_value"
+            android:onClick="onChangeUserInfo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="身高"
+            android:id="@+id/tv_height"
+            android:onClick="onChangeUserInfo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/tv_height_value"
+            android:onClick="onChangeUserInfo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="体重"
+            android:id="@+id/tv_weight"
+            android:onClick="onChangeUserInfo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/tv_weight_value"
+            android:onClick="onChangeUserInfo" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:text="退出登录"
+        android:id="@+id/bt_quit"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onQuit"/>
+
+</LinearLayout>

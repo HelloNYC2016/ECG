@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">观心仪</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_device_scan">DeviceScanActivity</string>
+    <string name="ble_not_supported">不支持BLE。</string>
+    <string name="label_data">数据:</string>
+    <string name="label_device_address">设备地址:</string>
+    <string name="label_state">状态:</string>
+    <string name="no_data">无数据</string>
+    <string name="connected">已连接</string>
+    <string name="disconnected">未连接</string>
+    <string name="title_devices">BLE设备搜索</string>
+    <string name="error_bluetooth_not_supported">不支持蓝牙.</string>
+
+    <string name="unknown_device">未知设备</string>
+    <string name="unknown_characteristic">未知属性</string>
+    <string name="unknown_service">未知服务</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">连接</string>
+    <string name="menu_disconnect">断开</string>
+    <string name="menu_scan">扫描</string>
+    <string name="menu_stop">停止</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="title_activity_history_data">HistoryDataActivity</string>
+</resources>
